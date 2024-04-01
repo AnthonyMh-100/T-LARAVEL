@@ -1,0 +1,65 @@
+body{
+    background: #e0e0e0;
+    
+    
+}
+   
+
+.container-nav{
+  
+   
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #7AA2E3;
+    background: #fff;
+    width: 90%;
+    margin: 8px auto;
+    border-radius: 15px;
+    
+}
+.container-card{
+    background: #fff;
+    width: 90%;
+    margin: auto;
+    height: 75%;
+    border-radius: 15px;
+    padding: 12px;
+    & table tr td a svg{
+        width: 22px;
+    }    
+  
+
+    & .box-card{
+      
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+
+        & .card{
+            height: 310px ;
+        }
+        
+    }
+
+    & .pag-box{
+        margin: 10px 0;
+    }
+}
+
+.divider:after,
+.divider:before {
+content: "";
+flex: 1;
+height: 1px;
+background: #eee;
+}
+.h-custom {
+height: calc(100% - 73px);
+}
+@media (max-width: 450px) {
+.h-custom {
+height: 100%;
+}
+}
